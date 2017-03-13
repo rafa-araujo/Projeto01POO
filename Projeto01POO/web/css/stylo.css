@@ -1,1 +1,15 @@
-.espaco{ margin-bottom:20px; }
+.espaco{ margin-bottom: 75px;}
+.borda{border-style: groove;
+       width: 500px;
+       border-width: 2px;
+       background-color: seashell
+      }
+#topo{font-size: large; font-style: italic;}
+body{
+    background-image: url(.../imagem/fundo2.jpg)
+}
+#topo{
+    border-bottom-style:  solid;
+}
+#noticia1{margin-top: 75px;}
+
