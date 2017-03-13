@@ -11,19 +11,17 @@
 #topo{
         font-size: large; 
         font-style: oblique;
+        border-bottom-style:  solid; 
+        border-width: 1px;
      }
 body{
         background-color: #fff;
     }
-#topo{
-        border-bottom-style:  solid; 
-        border-width: 1px;
-        background-color: #c9e2b3;
-     }
 #noticia1{
         margin-top: 75px;
          }
 #pagina{
+        margin-top: 40px;
         border-bottom-style: solid; 
         border-bottom-width: thin;
        }
@@ -33,7 +31,7 @@ body{
         text-align: center;
        }
 #bs-example-navbar-collapse-1{
-        
+        background-color: #fff;
                              }
 #Formulario{
         margin-bottom: 50px; 
@@ -42,5 +40,9 @@ body{
 #areatexto{
         margin-bottom: 50px;
           }
-
-
+#brand-image{
+        height: 10px;
+            }
+#brand-image-rodape{
+        height: 20px;        
+                   }
