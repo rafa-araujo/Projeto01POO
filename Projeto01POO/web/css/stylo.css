@@ -1,10 +1,10 @@
 .espaco{ 
         margin-bottom: 75px; 
-        padding-left: 20px;
+        
        }
 .borda{
         border-style: groove;
-        width: 500px;
+        width: 1000px;
         border-width: 2px;
         background-color: seashell;
       }
@@ -46,3 +46,17 @@ body{
 #brand-image-rodape{
         height: 20px;        
                    }
+#brand-image {
+            margin-left: 14px;
+            margin-top: 0px;
+            height: 20px; 
+        }                  
+#principal{
+    margin-bottom: 50px;
+    margin-top: 75px;
+    }        
+#leiamais{
+    margin-left: 525px;
+   
+         
+}
