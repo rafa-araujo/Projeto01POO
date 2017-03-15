@@ -80,14 +80,14 @@ body{
     animation: fadein 4.0s;
 }
 
-fades2{
-    -webkit-animation: fadein 3.0s; 
-    animation: fadein 3.0s;
-}
-
-fades3{
+.rapido{
     -webkit-animation: fadein 2.0s; 
     animation: fadein 2.0s;
+}
+
+.demora{
+    -webkit-animation: fadein 6.0s; 
+    animation: fadein 6.0s;
 }
 @keyframes fadein {
     from { opacity: 0; }
