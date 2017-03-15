@@ -1,3 +1,4 @@
+
 .espaco{ 
         margin-bottom: 75px; 
         
@@ -65,11 +66,36 @@ body{
         font-style: oblique;
         border-bottom-style:  solid; 
         border-width: 1px;
-             }
-             .centralizar{
-                 margin: auto;
-                 display: block;
-                 
-                 
-             }
-            
+}
+             
+.centralizar{
+        margin: auto;
+        display: block;
+}
+.cor{
+     background-color: #c1e2b3;
+}
+.fades {
+    -webkit-animation: fadein 4.0s; 
+    animation: fadein 4.0s;
+}
+
+fades2{
+    -webkit-animation: fadein 3.0s; 
+    animation: fadein 3.0s;
+}
+
+fades3{
+    -webkit-animation: fadein 2.0s; 
+    animation: fadein 2.0s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  
